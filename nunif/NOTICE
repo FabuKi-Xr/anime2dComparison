@@ -1,0 +1,68 @@
+----
+nunif/optim/lion.py
+From Google Brain AutoML: https://github.com/google/automl/blob/master/lion/lion_pytorch.py
+Google Research / Apache License, Version 2.0
+
+----
+nunif/training/weight_decay_config.py
+From nanoGPT: https://github.com/karpathy/nanoGPT/blob/master/model.py
+Andrej Karpathy / MIT License
+
+----
+nunif/waifu2x/docs/images/miku_128.png
+Hatsune Miku / Crypton Future Media inc. / CC BY-NC
+https://piapro.net/intl/en_for_creators.html
+
+----
+nunif/utils/perlin2d.py
+The original code is perlin-numpy: https://github.com/pvigier/perlin-numpy
+Pierre Vigier / MIT License
+Vadim Kantorov ported to pytorch: https://gist.github.com/vadimkantorov/ac1b097753f217c5c11bc2ff396e0a57
+
+----
+nunif/training/env.py
+The adaptive weight calculation for the two different losses(GAN and others) is from Taming Transformers.
+https://github.com/CompVis/taming-transformers
+
+----
+nunif/module/_lpips_1.pth
+nunif/module/_lpips_2.pth
+are trained with the private forked version of LPIPS.
+https://github.com/richzhang/PerceptualSimilarity
+
+---
+nunif/modules/fourier_unit.py
+Modified from LaMa https://github.com/advimman/lama/blob/main/saicinpainting/training/modules/ffc.py
+Samsung Research / Apache License Version 2.0
+Original implementation Fast Fourier Convolution https://github.com/pkumivision/FFC/blob/main/model_zoo/ffc.py
+Lu Chi / Apache License Version 2.0
+
+---
+iw3/training/sbs/stereoimage_generation.py
+is copied from https://github.com/thygate/stable-diffusion-webui-depthmap-script/blob/2838dc5fa24ac9f9e24b34ff61f2d2c169b634a1/scripts/stereoimage_generation.py
+Bob Thiry / MIT License
+And contributors https://github.com/thygate/stable-diffusion-webui-depthmap-script/graphs/contributors
+
+---
+iw3 uses forked version of ZoeDepth and MiDaS as its core logic
+https://github.com/isl-org/MiDaS
+https://github.com/isl-org/ZoeDepth
+Intelligent Systems Lab Org / MIT License
+
+---
+iw3 can use U-2-Net's pretrained model via rembg module.
+https://github.com/xuebinqin/U-2-Net
+xuebinqin / Apache License Version 2.0
+
+---
+iw3 can use DIS's pretrained model via rembg module.
+https://github.com/xuebinqin/DIS
+xuebinqin / Apache License Version 2.0
+
+---
+iw3 can anime-segmentation's pretrained model via rembg module.
+https://github.com/SkyTNT/anime-segmentation
+SkyTNT / Apache License Version 2.0
+
+----
+Other libraries used are listed in `requirements.txt`.

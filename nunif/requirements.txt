@@ -1,0 +1,26 @@
+# install from https://pytorch.org/get-started/locally/
+# torch
+# torchvision
+# torchtext
+numpy
+pillow
+tqdm
+wand >= 0.6.10
+fonttools
+scipy
+waitress
+bottle
+diskcache
+flake8
+psutil
+pyyaml
+onnx
+lpips
+# opencv-python
+packaging
+
+# iww3
+timm>=0.6,<0.7 # 0.6 is required for zoedepth, it does not work in latest version
+numba # only for iww3 sbs training
+av
+rembg # for --remove-bg
